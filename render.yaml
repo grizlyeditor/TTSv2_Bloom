@@ -1,12 +1,7 @@
 services:
   - type: web
     name: gnex-tts-bot
-    env: python
+    env: python    ✅ This enables runtime.txt to work
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
-    envVars:
-      - key: TOKEN
-        value: your_bot_token_here
-      - key: PORT
-        value: 10000
