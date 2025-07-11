@@ -7,3 +7,4 @@ torch
 torchaudio
 transformers
 einops
+mutagen==1.47.0
